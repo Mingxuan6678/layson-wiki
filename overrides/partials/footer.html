@@ -1,0 +1,17 @@
+<!-- overrides/footer.html -->
+<div id="waline" style="max-width:700px;width:100%;margin:2em auto;"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof Waline !== 'undefined') {
+      Waline.init({
+        el: '#waline',
+        serverURL: 'https://waline-test-hemingxuans-projects.vercel.app',
+        comment: true,
+        pageview: true,
+        dark: 'auto'
+      });
+    } else {
+      console.warn('Waline not loaded yet.');
+    }
+  });
+</script>

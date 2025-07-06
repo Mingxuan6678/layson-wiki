@@ -1,4 +1,11 @@
 site_name: Fallen Leaves
 theme: 
   name: material
+  custom_dir: overrides
 site_url: https://mingxuan6678.github.io/layson-wiki/
+
+extra_javascript:
+  - assets/waline.bundle.js
+
+extra_css:
+  - assets/waline.css
