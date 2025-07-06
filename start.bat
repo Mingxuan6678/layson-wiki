@@ -1,0 +1,1 @@
+"C:\Users\hp\AppData\Roaming\Python\Python313\Scripts\mkdocs.exe" serve
